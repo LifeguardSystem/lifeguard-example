@@ -1,4 +1,5 @@
-lifeguard==0.0.7
-lifeguard-mongodb==0.0.4
+lifeguard==0.0.14
+lifeguard-mongodb==0.0.5
 lifeguard-notification-google-chat==0.0.2
+lifeguard-simple-dashboard==0.0.2
 requests==2.25.0
