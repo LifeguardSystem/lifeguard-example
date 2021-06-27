@@ -6,6 +6,7 @@ import lifeguard_notification_google_chat
 import lifeguard_rabbitmq
 import lifeguard_simple_dashboard
 
+from lifeguard.auth import BASIC_AUTH_METHOD
 from lifeguard.validations import VALIDATIONS
 from lifeguard.actions.database import save_result_into_database
 from lifeguard_rabbitmq import RABBITMQ_PLUGIN_CONTEXT
@@ -46,6 +47,8 @@ PLUGINS = [
 ]
 
 
-def setup(_lifeguard_context):
+def setup(lifeguard_context):
+    lifeguard_context.auth_method = BASIC_AUTH_METHOD
+    lifeguard_context.users = [{"username": "test", "password": "pass"}]
     for validation in VALIDATIONS:
         print(validation)
