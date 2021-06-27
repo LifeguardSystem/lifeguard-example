@@ -4,8 +4,9 @@
 
 Lifeguard Examples
 
-User for dashboard and APIs:
+## User for dashboard and APIs:
 
 __user__: test
+
 __password__: pass
 
