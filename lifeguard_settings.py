@@ -42,8 +42,8 @@ RABBITMQ_PLUGIN_CONTEXT.messages_increasing_validation_options = {
 PLUGINS = [
     lifeguard_mongodb,
     lifeguard_notification_google_chat,
-    lifeguard_simple_dashboard,
     lifeguard_rabbitmq,
+    lifeguard_simple_dashboard,
 ]
 
 
