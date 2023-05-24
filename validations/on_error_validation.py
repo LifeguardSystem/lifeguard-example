@@ -23,5 +23,4 @@ from lifeguard.actions.notifications import notify_in_thread
     },
 )
 def validate_on_error():
-    return ValidationResponse("validate_on_error", "NORMAL", {})
-    # raise Exception("error")
+    raise Exception("error")

@@ -43,6 +43,7 @@ PLUGINS = [
     lifeguard_mongodb,
     lifeguard_notification_google_chat,
     lifeguard_rabbitmq,
+    lifeguard_simple_dashboard,
 ]
 
 
