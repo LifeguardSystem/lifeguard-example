@@ -23,7 +23,6 @@ def pudim_is_alive():
         status = change_status(status, PROBLEM)
 
     return ValidationResponse(
-        "pudim_is_alive",
         NORMAL,
         {status: result.status_code},
         {"notification": {"notify": True}},
