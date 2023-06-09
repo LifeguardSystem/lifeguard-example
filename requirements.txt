@@ -3,5 +3,5 @@ lifeguard-openai==1.0.0
 lifeguard-mongodb==1.1.0
 lifeguard-rabbitmq==1.0.0
 lifeguard-notification-google-chat==0.0.8
-lifeguard-simple-dashboard==0.0.3
+lifeguard-simple-dashboard==1.0.0
 requests==2.25.0
